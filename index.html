@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>BIKEzone Parts - Iniciar sesión</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <main class="login-container">
+
+        <section class="login-card">
+
+            <div class="logo">
+                <span class="logo-icon">🚲</span>
+                <h1>BIKE<span>zone</span></h1>
+                <p>PARTS</p>
+            </div>
+
+            <div class="login-header">
+                <h2>Iniciar sesión</h2>
+                <p>Acceda al sistema de BIKEzone Parts</p>
+            </div>
+
+            <form id="loginForm">
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Ingrese su correo"
+                        autocomplete="username"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Contraseña</label>
+
+                    <div class="password-container">
+
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Ingrese su contraseña"
+                            autocomplete="current-password"
+                        >
+
+                        <button
+                            type="button"
+                            id="togglePassword"
+                            class="toggle-password">
+                            Mostrar
+                        </button>
+
+                    </div>
+                </div>
+
+                <div id="message" class="message"></div>
+
+                <button
+                    type="submit"
+                    class="login-button">
+                    Iniciar sesión
+                </button>
+
+            </form>
+
+            <div class="login-footer">
+                <p>BIKEzone Parts</p>
+                <small>Sistema de gestión de repuestos para bicicletas</small>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="js/login.js"></script>
+
+</body>
+
+</html>

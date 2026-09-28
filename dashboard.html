@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BIKEzone Parts - Dashboard</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header class="dashboard-header">
+
+        <div>
+            <h1>🚲 BIKEzone <span>Parts</span></h1>
+            <p>Sistema de gestión</p>
+        </div>
+
+        <button id="logoutButton">
+            Cerrar sesión
+        </button>
+
+    </header>
+
+
+    <main class="dashboard">
+
+        <section class="welcome">
+
+            <h2>Bienvenido a BIKEzone</h2>
+
+            <p>
+                Panel principal del sistema de gestión
+                de repuestos para bicicletas.
+            </p>
+
+        </section>
+
+
+        <section class="cards">
+
+            <article class="dashboard-card">
+
+                <div class="card-icon">📦</div>
+
+                <h3>Inventario</h3>
+
+                <p>
+                    Consulte y gestione los repuestos
+                    disponibles.
+                </p>
+
+                <button>
+                    Ver inventario
+                </button>
+
+            </article>
+
+
+            <article class="dashboard-card">
+
+                <div class="card-icon">🛒</div>
+
+                <h3>Ventas</h3>
+
+                <p>
+                    Registre y consulte las ventas
+                    realizadas.
+                </p>
+
+                <button>
+                    Gestionar ventas
+                </button>
+
+            </article>
+
+
+            <article class="dashboard-card">
+
+                <div class="card-icon">🚲</div>
+
+                <h3>Productos</h3>
+
+                <p>
+                    Administre los productos y
+                    repuestos de BIKEzone.
+                </p>
+
+                <button>
+                    Ver productos
+                </button>
+
+            </article>
+
+
+            <article class="dashboard-card">
+
+                <div class="card-icon">👥</div>
+
+                <h3>Usuarios</h3>
+
+                <p>
+                    Gestione los usuarios y sus
+                    roles dentro del sistema.
+                </p>
+
+                <button>
+                    Gestionar usuarios
+                </button>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <footer class="dashboard-footer">
+
+        <p>
+            BIKEzone Parts © 2026
+        </p>
+
+    </footer>
+
+
+    <script>
+
+        document
+            .getElementById("logoutButton")
+            .addEventListener("click", function () {
+
+                window.location.href = "index.html";
+
+            });
+
+    </script>
+
+</body>
+
+</html>
